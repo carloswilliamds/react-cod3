@@ -5,7 +5,7 @@ import PageHeader from "../template/page-header"
 import TodoForm from "./todoForm"
 import TodoList from "./todoList"
 
-const URL = "http://localhost:3003/api/todos"
+const URL = "http://localhost:3050/api/todos"
 
 export default class Todo extends Component{
 
@@ -89,7 +89,7 @@ export default class Todo extends Component{
     render(){
         return(
             <div>
-                <PageHeader name="Tarefas" small="cadastro"></PageHeader>
+                <PageHeader name="Tarefas" small="React"></PageHeader>
                 <TodoForm handleAdd={this.handleAdd}
                     description={this.state.description}
                     handleChange={this.handleChange}
