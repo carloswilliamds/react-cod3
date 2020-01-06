@@ -1,0 +1,23 @@
+header.header{
+    background: #FFF;
+    padding: 0 15px;
+    max-width: 100%;
+    width: 100%;
+    box-shadow:  var(--shadow);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header.header h1{
+    font-size: 1.8em;
+    width: 100%;
+
+}
+
+header.header .subtitle{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* I'm still number one */
